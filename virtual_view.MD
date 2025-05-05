@@ -30,5 +30,5 @@ logic query plan can be re-write depended on the availability of data Materializ
 * The filter condition will be pushed down to the first seen of the materialized data or the ODS table, to improve the performance and save cost.
 #### User logic
 * user query will be re-written based on the availability of materialized data
-* the actually plan may use original table, materialzied view or ODS data, decides by CBO.
+* the actually plan may use original table, materialzied view or ODS data, decided by CBO.
 
